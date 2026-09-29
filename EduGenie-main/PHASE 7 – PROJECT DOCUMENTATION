@@ -1,0 +1,47 @@
+7.1 Project Overview
+EduGenie – Google Gemini Powered Learning Assistant is an AI-powered educational assistant that helps learners understand concepts, answer questions, generate quizzes, summarize content and obtain personalized learning paths.
+7.2 Technologies Used
+Python
+FastAPI
+Google Gemini API
+LaMini-Flan-T5
+HTML
+CSS
+Jinja2
+Uvicorn
+7.3 Project Outcomes
+The project provides an interactive learning platform that combines AI capabilities with a simple web interface.
+It supports:
+Personalized learning
+Quick question answering
+Simplified explanations
+Quiz-based practice
+Quick revision through summaries
+Structured learning recommendations
+7.4 Challenges
+The project document identifies challenges including:
+Maintaining accuracy in AI-generated responses
+Performance across devices
+Balancing personalization with general usability
+Prompt engineering
+UI optimization
+Data privacy considerations
+EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+7.5 Future Enhancements
+Possible future enhancements include:
+Voice-based interaction
+Multilingual support
+Mobile application
+Offline features
+Progress tracking dashboard
+Gamification
+Adaptive learning paths
+Group study sessions
+Teacher/parent dashboards
+LMS integration
+Image and PDF input
+Smart notifications
+These future directions are described in the project document. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+7.6 Conclusion
+EduGenie provides an AI-powered approach to personalized education. By combining cloud-based generative AI with a lightweight web interface, the system helps learners obtain answers, understand difficult concepts, practice through quizzes, summarize educational content and follow structured learning paths.
+The modular architecture also provides opportunities for future improvements and additional educational features. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
