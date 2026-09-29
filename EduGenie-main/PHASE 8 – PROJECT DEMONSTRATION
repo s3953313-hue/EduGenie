@@ -1,0 +1,68 @@
+1. Introduction
+Say:
+"Good morning/afternoon. Our project is EduGenie – Google Gemini Powered Learning Assistant."
+2. Project Purpose
+Explain:
+"The purpose of EduGenie is to provide students with an AI-powered learning assistant that helps them understand concepts, answer questions, generate quizzes, summarize content and create personalized learning paths."
+3. Explain the Interface
+Show your EduGenie homepage and explain the available options:
+Explain
+Q&A
+Quiz
+Summary
+Recommend Path
+4. Demonstrate Q&A
+Enter a question → Submit → Show the generated answer.
+5. Demonstrate Explanation
+Enter a difficult topic → Select Explain → Show the simplified explanation.
+6. Demonstrate Quiz
+Enter a passage → Select Quiz → Show the generated MCQs.
+7. Demonstrate Summary
+Enter a long paragraph → Select Summary → Show the concise result.
+8. Demonstrate Learning Path
+Enter a topic such as SQL → Select Recommend Path → Show the beginner-to-advanced learning recommendations.
+9. Final Output
+Show all the completed features and explain how they help students.
+10. Closing
+Say:
+"This concludes our demonstration of EduGenie – Google Gemini Powered Learning Assistant. Thank you."
+📁 Your final GitHub should look like this
+EduGenie/
+│
+├── Phase-1-Brainstorming-and-Ideation/
+│   └── Brainstorming-and-Ideation.docx
+│
+├── Phase-2-Requirement-Analysis/
+│   └── Requirements.docx
+│
+├── Phase-3-Project-Design/
+│   ├── System-Design.docx
+│   └── Architecture-Diagram.png
+│
+├── Phase-4-Project-Planning/
+│   ├── Project-Plan.docx
+│   └── Timeline.xlsx
+│
+├── Phase-5-Project-Development/
+│   ├── main.py
+│   ├── explanation_module.py
+│   ├── qna.py
+│   ├── quiz_module.py
+│   ├── summary_module.py
+│   ├── learning_path.py
+│   ├── requirements.txt
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       └── style.css
+│
+├── Phase-6-Project-Testing/
+│   ├── Test-Cases.docx
+│   ├── Testing-Report.docx
+│   └── Screenshots/
+│
+├── Phase-7-Project-Documentation/
+│   └── Final-Project-Report.pdf
+│
+└── Phase-8-Project-Demonstration/
+    └── Demo-Details.md
