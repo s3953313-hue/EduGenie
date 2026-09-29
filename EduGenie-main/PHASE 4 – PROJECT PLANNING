@@ -1,0 +1,43 @@
+4.1 Development Plan
+The project can be developed through the following activities:
+Step 1 – Environment Setup
+Install Python, FastAPI, Uvicorn, Jinja2 and required dependencies.
+Step 2 – AI Model Configuration
+Configure Gemini API and the required AI model.
+Step 3 – Module Development
+Develop:
+Explanation module
+Q&A module
+Quiz module
+Summary module
+Learning Path module
+Step 4 – Backend Development
+Create FastAPI endpoints for each functionality.
+Step 5 – Frontend Development
+Create the HTML interface and CSS styling.
+Step 6 – Integration
+Connect the frontend with the FastAPI backend.
+Step 7 – Testing
+Test each functionality individually and together.
+Step 8 – Deployment & Documentation
+Run the application locally, document the project, and prepare the demonstration.
+The project document organizes development into milestones covering model selection, core functionality, frontend development and deployment. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+4.2 Project Timeline
+Activity
+Planned Work
+Week 1
+Brainstorming & Requirements
+Week 2
+System Design
+Week 3
+AI Module Development
+Week 4
+Backend Development
+Week 5
+Frontend Development
+Week 6
+Integration
+Week 7
+Testing
+Week 8
+Documentation & Demonstration
