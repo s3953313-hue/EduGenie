@@ -1,0 +1,33 @@
+5.1 Backend Development
+The backend is developed using FastAPI.
+FastAPI manages the requests from the frontend and connects each request to its respective module.
+5.2 API Endpoints
+EduGenie contains the following endpoints:
+/qa
+/explain
+/quiz
+/summarize
+/learn/recommendations
+Each endpoint is connected to its corresponding module logic. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.3 Explanation Module
+The Explanation Module uses LaMini-Flan-T5 to provide concise and easy-to-understand explanations.
+It is particularly useful for beginners and learners who have difficulty understanding complex concepts. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.4 Q&A Module
+The Q&A module uses Gemini to answer general knowledge and academic questions.
+It uses Gemini's contextual capabilities to provide AI-driven assistance to learners. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.5 Quiz Module
+The Quiz Module generates three multiple-choice questions, with four options for each question.
+The generated output is structured in JSON format for integration with the application. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.6 Summary Module
+The Summary Module converts lengthy paragraphs into concise and easy-to-understand content while retaining important information. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.7 Learning Path Module
+The Learning Path Module generates a structured learning path from beginner to advanced levels.
+It can also suggest learning resources such as videos, articles and books. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+5.8 Frontend Development
+The frontend contains:
+Task dropdown
+Text area
+Submit button
+Result container
+Responsive styling
+The available tasks include Explain, QnA, Quiz, Summary and Recommend Path.
