@@ -1,0 +1,36 @@
+2.1 Functional Requirements
+EduGenie should provide the following functions:
+1. Question & Answer
+The user enters a question and receives an AI-generated answer.
+2. Concept Explanation
+The system explains difficult concepts in a simple and understandable manner.
+3. Quiz Generation
+The system generates multiple-choice questions from a given passage.
+4. Summarization
+The system converts long educational passages into concise summaries.
+5. Learning Recommendations
+The system creates a structured learning path from beginner to advanced level.
+The project document specifies these five major functionalities. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+2.2 Software Requirements
+Software
+Requirement
+Programming Language
+Python 3.10+
+Backend
+FastAPI
+Frontend
+HTML, CSS
+AI
+Google Gemini API
+Local AI
+LaMini-Flan-T5-783M
+Server
+Uvicorn
+Template Engine
+Jinja2
+These prerequisites are specified in the project document. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+2.3 Hardware Requirements
+The document describes EduGenie as lightweight and suitable for devices with limited hardware resources. It specifically notes that the system works well on devices such as a Mac M1. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+2.4 API Requirement
+A Google Gemini API key is required for the cloud-based AI functionality.
+The project document describes obtaining and securely storing the Gemini API key through Google AI Studio.
