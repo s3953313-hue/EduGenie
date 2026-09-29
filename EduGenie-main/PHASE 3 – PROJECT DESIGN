@@ -1,0 +1,53 @@
+3.1 System Architecture
+EduGenie consists of three major layers:
+User → Frontend → FastAPI Backend → AI Modules → Response
+The frontend collects the user's input. The FastAPI backend receives the request and sends it to the appropriate AI module. The generated result is then returned to the frontend.
+3.2 AI Model Design
+The project uses different models for different purposes.
+Gemini
+Gemini is used for:
+Question answering
+Summarization
+Quiz generation
+Learning paths
+LaMini-Flan-T5-783M
+LaMini-Flan-T5 is used for:
+Concept explanation
+The project document identifies these model responsibilities. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+3.3 Folder Architecture
+EduGenie/
+│
+├── main.py
+├── explanation_module.py
+├── qna.py
+├── quiz_module.py
+├── summary_module.py
+├── learning_path.py
+├── requirements.txt
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    └── style.css
+This folder architecture is given in the project document. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+3.4 Module Design
+User Input
+    ↓
+Frontend
+    ↓
+FastAPI
+    ↓
+ ┌───────────────┐
+ │ AI Modules    │
+ ├───────────────┤
+ │ Q&A           │
+ │ Explanation   │
+ │ Quiz          │
+ │ Summary       │
+ │ Learning Path │
+ └───────────────┘
+    ↓
+Generated Result
+    ↓
+Frontend
