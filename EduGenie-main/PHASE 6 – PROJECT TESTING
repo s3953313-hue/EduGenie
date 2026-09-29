@@ -1,0 +1,43 @@
+6.1 Testing Objective
+Testing is performed to ensure that each EduGenie feature works correctly and produces the expected output.
+6.2 Test Cases
+Test
+Input
+Expected Result
+Q&A
+"What is Python?"
+AI answer
+Explanation
+"Explain photosynthesis"
+Simple explanation
+Quiz
+Educational passage
+3 MCQs
+Summary
+Long paragraph
+Concise summary
+Learning Path
+"Learn SQL"
+Structured learning path
+6.3 Functional Testing
+The following functionalities should be tested:
+Ask a question.
+Get an explanation.
+Generate a quiz.
+Summarize content.
+Get a personalized learning plan.
+These are the functional tests identified in the project document. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+6.4 Local Execution
+The project can be run using:
+uvicorn main:app --reload
+The application can then be accessed through:
+http://127.0.0.1:8000
+This local execution process is specified in the project document. EduGenie-Google Gemini Powered Learning Assistant_Document.docx
+6.5 Testing Evidence
+Add screenshots of:
+Homepage
+Q&A output
+Explanation output
+Quiz output
+Summary output
+Learning path output
